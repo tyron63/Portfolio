@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7f4b6bf2.chunk.css",
-    "main.js": "/Portfolio/static/js/main.804119f8.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.804119f8.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.029b00b0.chunk.css",
+    "main.js": "/Portfolio/static/js/main.b0a2a7b5.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.b0a2a7b5.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
     "static/css/2.d42dd038.chunk.css": "/Portfolio/static/css/2.d42dd038.chunk.css",
-    "static/js/2.efea857a.chunk.js": "/Portfolio/static/js/2.efea857a.chunk.js",
-    "static/js/2.efea857a.chunk.js.map": "/Portfolio/static/js/2.efea857a.chunk.js.map",
+    "static/js/2.eaba86dc.chunk.js": "/Portfolio/static/js/2.eaba86dc.chunk.js",
+    "static/js/2.eaba86dc.chunk.js.map": "/Portfolio/static/js/2.eaba86dc.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.b153dba33727cf77ebf22253e7fb3a70.js": "/Portfolio/precache-manifest.b153dba33727cf77ebf22253e7fb3a70.js",
+    "precache-manifest.5a98b3c24b5f13cd6b9ba4dd2e1f4fa7.js": "/Portfolio/precache-manifest.5a98b3c24b5f13cd6b9ba4dd2e1f4fa7.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.d42dd038.chunk.css.map": "/Portfolio/static/css/2.d42dd038.chunk.css.map",
-    "static/css/main.7f4b6bf2.chunk.css.map": "/Portfolio/static/css/main.7f4b6bf2.chunk.css.map",
-    "static/js/2.efea857a.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.efea857a.chunk.js.LICENSE.txt",
+    "static/css/main.029b00b0.chunk.css.map": "/Portfolio/static/css/main.029b00b0.chunk.css.map",
+    "static/js/2.eaba86dc.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.eaba86dc.chunk.js.LICENSE.txt",
     "static/media/About_image.png": "/Portfolio/static/media/About_image.d4582229.png",
     "static/media/Red.jpg": "/Portfolio/static/media/Red.6a52ea8f.jpg",
     "static/media/intro.css": "/Portfolio/static/media/computer-keyboards-black-white-wallpaper2.169ce861.jpg",
@@ -21,13 +21,16 @@
     "static/media/image1.png": "/Portfolio/static/media/image1.96daaf6a.png",
     "static/media/image2.png": "/Portfolio/static/media/image2.431f0248.png",
     "static/media/image3.png": "/Portfolio/static/media/image3.ee08ea90.png",
+    "static/media/image4.png": "/Portfolio/static/media/image4.6d26bce2.png",
+    "static/media/image5.png": "/Portfolio/static/media/image5.abe1c038.png",
+    "static/media/image6.png": "/Portfolio/static/media/image6.5ad058fa.png",
     "static/media/ionicons.css": "/Portfolio/static/media/ionicons.621bd386.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e440ee5a.js",
     "static/css/2.d42dd038.chunk.css",
-    "static/js/2.efea857a.chunk.js",
-    "static/css/main.7f4b6bf2.chunk.css",
-    "static/js/main.804119f8.chunk.js"
+    "static/js/2.eaba86dc.chunk.js",
+    "static/css/main.029b00b0.chunk.css",
+    "static/js/main.b0a2a7b5.chunk.js"
   ]
 }
