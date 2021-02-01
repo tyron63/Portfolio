@@ -57,6 +57,12 @@ class About extends Component {
           persentasie: '74%',
           value: '74',
         },
+        {
+          id: 'WordPress',
+          content: 'WordPress',
+          persentasie: '52%',
+          value: '52',
+        },
       ],
       about_me: [
         {

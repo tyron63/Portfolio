@@ -29,6 +29,7 @@ class Portfolio extends Component {
                 <a
                   href="https://github.com/tyron63/First.git"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <div className="work-img">
                     <img src={Four} alt="" className="img-fluid" />
@@ -53,6 +54,7 @@ class Portfolio extends Component {
                 <a
                   href="https://netflixsd.herokuapp.com/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <div className="work-img">
                     <img src={Five} alt="" className="img-fluid" />
@@ -78,6 +80,7 @@ class Portfolio extends Component {
                 <a
                   href="https://github.com/tyron63/ContactKeeper.git"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <div className="work-img">
                     <img src={Six} alt="" className="img-fluid" />
@@ -102,6 +105,7 @@ class Portfolio extends Component {
                 <a
                   href="https://modest-hypatia-c1c905.netlify.app"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <div className="work-img">
                     <img src={One} alt="" className="img-fluid" />
@@ -126,6 +130,7 @@ class Portfolio extends Component {
                 <a
                   href="https://jovial-galileo-3d0b37.netlify.app"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <div className="work-img">
                     <img src={Two} alt="" className="img-fluid" />
@@ -151,6 +156,7 @@ class Portfolio extends Component {
                 <a
                   href="https://distracted-bassi-d4bf30.netlify.app"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <div className="work-img">
                     <img src={Three} alt="" className="img-fluid" />
