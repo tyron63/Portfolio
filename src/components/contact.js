@@ -131,7 +131,7 @@ class Contact extends Component {
                           </li>
                           <li>
                             <span class="ion-email"></span>
-                            tyron.keet.01@gmail.com
+                            tyronk33t@gmail.com
                           </li>
                         </ul>
                       </div>
