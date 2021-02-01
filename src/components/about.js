@@ -89,6 +89,7 @@ class About extends Component {
           backgroundPositionX: 'center',
         }}
       >
+        <div className="HOC">
         <Flippy
           flipOnHover={false}
           flipOnClick={true}
@@ -125,12 +126,6 @@ class About extends Component {
                         </div>
                         <br />
                         <br />
-                        <u style={{ color: 'red' }}>
-                          <h6>
-                            Click anywhere on the card to view my hobbies and
-                            Working Experience
-                          </h6>
-                        </u>
                       </div>
                       <div className="col-md-6">
                         <h5 className="title-left">Skillset</h5>
@@ -263,6 +258,7 @@ class About extends Component {
             </div>
           </BackSide>
         </Flippy>
+        </div>
       </section>
     );
   }

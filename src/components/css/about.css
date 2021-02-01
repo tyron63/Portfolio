@@ -1,3 +1,9 @@
+.HOC .container:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: all 500ms ease-in-out;
+}
+
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
