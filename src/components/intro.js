@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import './css/intro.css';
+import React, { Component } from "react";
+import "./css/intro.css";
 
-import Typed from 'react-typed';
+import Typed from "react-typed";
 
 class Intro extends Component {
   render() {
@@ -18,8 +18,8 @@ class Intro extends Component {
                 <strong className="text-slider">
                   <Typed
                     strings={[
-                      'Aspiring Junior Full Stack Developer',
-                      'Scroll down and get to know me.',
+                      "Aspiring Junior Full Stack Developer",
+                      "Scroll down and get to know me.",
                     ]}
                     typeSpeed={80}
                     backDelay={1100}
@@ -34,7 +34,7 @@ class Intro extends Component {
                   href="#work"
                   role="button"
                 >
-                  Look At Some Of My Work
+                  View my work
                 </a>
               </p>
             </div>

@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import './css/portfolio.css';
+import React, { Component } from "react";
+import "./css/portfolio.css";
 
 //import Images
-import One from '../img/image1.png';
-import Two from '../img/image2.png';
-import Three from '../img/image3.png';
-import Four from '../img/image4.png';
-import Five from '../img/image5.png';
-import Six from '../img/image6.png';
+import One from "../img/image1.png";
+import Two from "../img/image2.png";
+import Three from "../img/image3.png";
+import Four from "../img/VanKesteren.JPG";
+import Five from "../img/image5.png";
+import Six from "../img/image6.png";
 
 class Portfolio extends Component {
   render() {
@@ -24,31 +24,6 @@ class Portfolio extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4">
-              <div className="work-box">
-                <a
-                  href="https://github.com/tyron63/First.git"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="work-img">
-                    <img src={Four} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">First Website</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            Using HTML and CSS i made my first Website.
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
             <div className="col-md-4">
               <div className="work-box">
                 <a
@@ -71,6 +46,9 @@ class Portfolio extends Component {
                         </div>
                       </div>
                     </div>
+                    <div className="RepoSec">
+                      <a href="https://github.com/tyron63/Netflix-project.git">Github repo</a>
+                    </div>
                   </div>
                 </a>
               </div>
@@ -78,7 +56,7 @@ class Portfolio extends Component {
             <div className="col-md-4">
               <div className="work-box">
                 <a
-                  href="https://github.com/tyron63/ContactKeeper.git"
+                  href="https://contact-keeper210.herokuapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -95,6 +73,11 @@ class Portfolio extends Component {
                           </span>
                         </div>
                       </div>
+                    </div>
+                    <div className="RepoSec">
+                      <a href="https://github.com/tyron63/ContactKeeper.git">
+                        Github repo
+                      </a>
                     </div>
                   </div>
                 </a>
@@ -120,6 +103,9 @@ class Portfolio extends Component {
                           </span>
                         </div>
                       </div>
+                    </div>
+                    <div className="RepoSec">
+                      <a href="https://github.com/tyron63/IT_Logger.git">Github repo</a>
                     </div>
                   </div>
                 </a>
@@ -147,6 +133,9 @@ class Portfolio extends Component {
                         </div>
                       </div>
                     </div>
+                    <div className="RepoSec">
+                      <a href="https://github.com/tyron63/Js-Github-project-finder.git">Github repo</a>
+                    </div>
                   </div>
                 </a>
               </div>
@@ -168,6 +157,36 @@ class Portfolio extends Component {
                         <div className="w-more">
                           <span className="w-ctegory">
                             My Online Shop is a store that sell stuff online.
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="RepoSec">
+                      <a href="https://github.com/tyron63/1234.git">Github repo</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="work-box">
+                <a
+                  href="https://devzone.lifechoicesacademy.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="work-img">
+                    <img src={Four} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">Van Kesteren</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            <br />
+                            Live WordPress Website. The Van Kesteren-Foundation
+                            Website
                           </span>
                         </div>
                       </div>
