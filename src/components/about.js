@@ -77,13 +77,8 @@ class About extends Component {
           backgroundPositionX: "center",
         }}
       >
-        <div className="HOC">
-          <Flippy
-            flipOnHover={false}
-            flipOnClick={true}
-            flipDirection="horizontal"
-            ref={(r) => (this.flippy = r)}
-          >
+        <div>
+          <Flippy ref={(r) => (this.flippyHorizontal = r)} flipOnClick={false}>
             <FrontSide>
               <div className="container">
                 <div className="row">
@@ -132,6 +127,13 @@ class About extends Component {
                           </div>
                         </div>
                       </div>
+                      <button
+                        className="button button-a button-small button-rouded"
+                        type="button"
+                        onClick={() => this.flippyHorizontal.toggle()}
+                      >
+                        Find Out More
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -182,6 +184,13 @@ class About extends Component {
                                 what computers all about.
                               </p>
                             </div>
+                            <button
+                              className="button button-a button-small button-rouded"
+                              type="button"
+                              onClick={() => this.flippyHorizontal.toggle()}
+                            >
+                              To Flip Back
+                            </button>
                           </div>
                         </div>
                         <div className="col-md-6">
