@@ -184,15 +184,9 @@ class About extends Component {
                                 what computers all about.
                               </p>
                             </div>
-                            <button
-                              className="button button-a button-small button-rouded"
-                              type="button"
-                              onClick={() => this.flippyHorizontal.toggle()}
-                            >
-                              To Flip Back
-                            </button>
                           </div>
                         </div>
+
                         <div className="col-md-6">
                           <div>
                             <h3 className="title-left">Education</h3>
@@ -227,6 +221,13 @@ class About extends Component {
                           </div>
                         </div>
                       </div>
+                      <button
+                        className="button button-a button-small button-rouded"
+                        type="button"
+                        onClick={() => this.flippyHorizontal.toggle()}
+                      >
+                        To Flip Back
+                      </button>
                     </div>
                   </div>
                 </div>
