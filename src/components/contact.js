@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import './css/Button.css';
+import React, { Component } from "react";
+import "./css/Button.css";
 
-import Fire from '../img/Red.jpg';
+import Fire from "../img/Red.jpg";
 
 class Contact extends Component {
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
     this.state = {
-      status: '',
+      status: "",
     };
   }
 
@@ -18,7 +18,7 @@ class Contact extends Component {
     return (
       <section
         className="paralax-mf footer-paralax bg-image sect-mt4 route"
-        style={{ backgroundImage: 'url(' + Fire + ')' }}
+        style={{ backgroundImage: "url(" + Fire + ")" }}
       >
         <div className="overlay-mf"></div>
         <div className="container">
@@ -84,7 +84,7 @@ class Contact extends Component {
                               </div>
                             </div>
                             <div className="col-md-12">
-                              {status === 'SUCCESS' ? (
+                              {status === "SUCCESS" ? (
                                 <p className="submit">
                                   Your message has been sent. Reload to submit
                                   again. Thank you!
@@ -97,7 +97,7 @@ class Contact extends Component {
                                   Send Message
                                 </button>
                               )}
-                              {status === 'ERROR' && (
+                              {status === "ERROR" && (
                                 <p className="submit">
                                   Ooops! There was an error.
                                 </p>
@@ -114,8 +114,8 @@ class Contact extends Component {
                       </div>
                       <div className="more-info">
                         <p className="lead">
-                          Hi im Tyron and i would like to know what i can build
-                          for you.
+                          Hi, I'm Tyron and I would like to know what I can
+                          build for you.
                           <br />
                           All you have to do is fill the from and send me an
                           email. Thanks!
@@ -127,7 +127,7 @@ class Contact extends Component {
                           </li>
                           <li>
                             <span class="ion-ios-telephone"></span>
-                            072 180 9464
+                            076 345 1156
                           </li>
                           <li>
                             <span class="ion-email"></span>
@@ -175,14 +175,14 @@ class Contact extends Component {
     const data = new FormData(form);
     const xhr = new XMLHttpRequest();
     xhr.open(form.method, form.action);
-    xhr.setRequestHeader('Accept', 'application/json');
+    xhr.setRequestHeader("Accept", "application/json");
     xhr.onreadystatechange = () => {
       if (xhr.readyState !== XMLHttpRequest.DONE) return;
       if (xhr.status === 200) {
         form.reset();
-        this.setState({ status: 'SUCCESS' });
+        this.setState({ status: "SUCCESS" });
       } else {
-        this.setState({ status: 'ERROR' });
+        this.setState({ status: "ERROR" });
       }
     };
     xhr.send(data);

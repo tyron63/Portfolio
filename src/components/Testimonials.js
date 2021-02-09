@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './css/Testimonials.css';
+import React, { Component } from "react";
+import "./css/Testimonials.css";
 
 class Testimonials extends Component {
   render() {
@@ -18,7 +18,7 @@ class Testimonials extends Component {
                       <div className="layer"></div>
                       <div className="content">
                         <p>
-                          Tyron consistantly produces excellent work, and is
+                          Tyron consistently produces excellent work, and is
                           always seeking to improve his skills, and assist his
                           team.
                         </p>
@@ -36,14 +36,14 @@ class Testimonials extends Component {
                       <div className="layer"></div>
                       <div className="content">
                         <p>
-                          He is a very enthusiastic web development who is
-                          always willing to go the extra mile.
+                          He is a very enthusiastic web developer who is always
+                          willing to go the extra mile.
                         </p>
                         <div className="details">
                           <h2>
                             Cameron Luyt
                             <br />
-                            <span>colleague</span>
+                            <span>Colleague</span>
                           </h2>
                         </div>
                       </div>
@@ -55,13 +55,13 @@ class Testimonials extends Component {
                         <p>
                           Tyron... A hard worker and a driven individual. He is
                           a team player and has an aptitude for coding. He is a
-                          great developer and will be asset to the work place.
+                          great developer and will be an asset to the workplace.
                         </p>
                         <div className="details">
                           <h2>
                             Viata Fredricks
                             <br />
-                            <span>colleague</span>
+                            <span>Colleague</span>
                           </h2>
                         </div>
                       </div>
@@ -72,8 +72,8 @@ class Testimonials extends Component {
                       <div className="content">
                         <p>
                           Tyrone is a committed student who is always willing to
-                          learn more. He has managed to work within given
-                          timelines in all his projects producing quality work -
+                          learn more. He has managed to work within the given
+                          timelines on all his projects producing quality work -
                           I recommend him.
                         </p>
                         <div className="details">
@@ -99,7 +99,7 @@ class Testimonials extends Component {
                           <h2>
                             Takudzwa Vengai
                             <br />
-                            <span>colleague</span>
+                            <span>Colleague</span>
                           </h2>
                         </div>
                       </div>
@@ -118,7 +118,7 @@ class Testimonials extends Component {
                           <h2>
                             Luyanda Mabozo
                             <br />
-                            <span>colleague</span>
+                            <span>Colleague</span>
                           </h2>
                         </div>
                       </div>

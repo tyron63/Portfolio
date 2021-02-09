@@ -106,8 +106,8 @@ class About extends Component {
                         </div>
                         <div className="col-md-6">
                           <h5 className="title-left">Skillset</h5>
-                         <br />
-                         <br />
+                          <br />
+
                           <div className="skill-mf">
                             {this.state.skills.map((skill) => {
                               return (
@@ -163,8 +163,8 @@ class About extends Component {
                                 <strong>Gaming</strong>
                                 <br />
                                 From online to offline, console to actually
-                                getting dirty, i love chess, 30 Seconds, and
-                                cluedo.
+                                getting dirty, I love chess, 30 Seconds, and
+                                Cluedo.
                               </p>
                               <p>
                                 <strong>Coding</strong>
@@ -177,7 +177,7 @@ class About extends Component {
                                   Fixing,Updating and also building up computers
                                 </strong>
                                 <br />
-                                Having been teached this at a very young age was
+                                Having been taught this at a very young age was
                                 the best thing because that inspired to get into
                                 what computers all about.
                               </p>

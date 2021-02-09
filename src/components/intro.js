@@ -10,15 +10,13 @@ class Intro extends Component {
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
-              <u>
-                <h1 className="intro-title mb-4">Tyron Keet</h1>
-              </u>
+              <h1 className="intro-title mb-4">Tyron Keet</h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
                   <Typed
                     strings={[
-                      "Aspiring Junior Full Stack Developer",
+                      "Aspiring Junior Full Stack Developer.",
                       "Scroll down and get to know me.",
                     ]}
                     typeSpeed={80}

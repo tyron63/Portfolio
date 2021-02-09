@@ -40,14 +40,20 @@ class Portfolio extends Component {
                         <h2 className="w-title">NetFlix</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            Full Fontend landing page of NetFlix. Backend coming
-                            soon
+                            Full Fontend landing page on Netflix. Back-end
+                            coming soon
                           </span>
                         </div>
                       </div>
                     </div>
                     <div className="RepoSec">
-                      <a href="https://github.com/tyron63/Netflix-project.git">Github repo</a>
+                      <a
+                        href="https://github.com/tyron63/Netflix-project.git"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Github repo
+                      </a>
                     </div>
                   </div>
                 </a>
@@ -75,7 +81,11 @@ class Portfolio extends Component {
                       </div>
                     </div>
                     <div className="RepoSec">
-                      <a href="https://github.com/tyron63/ContactKeeper.git">
+                      <a
+                        href="https://github.com/tyron63/ContactKeeper.git"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         Github repo
                       </a>
                     </div>
@@ -105,7 +115,13 @@ class Portfolio extends Component {
                       </div>
                     </div>
                     <div className="RepoSec">
-                      <a href="https://github.com/tyron63/IT_Logger.git">Github repo</a>
+                      <a
+                        href="https://github.com/tyron63/IT_Logger.git"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Github repo
+                      </a>
                     </div>
                   </div>
                 </a>
@@ -134,7 +150,13 @@ class Portfolio extends Component {
                       </div>
                     </div>
                     <div className="RepoSec">
-                      <a href="https://github.com/tyron63/Js-Github-project-finder.git">Github repo</a>
+                      <a
+                        href="https://github.com/tyron63/Js-Github-project-finder.git"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Github repo
+                      </a>
                     </div>
                   </div>
                 </a>
@@ -156,13 +178,19 @@ class Portfolio extends Component {
                         <h2 className="w-title">My Online Shop</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            My Online Shop is a store that sell stuff online.
+                            My Online Shop is a store that sells stuff online.
                           </span>
                         </div>
                       </div>
                     </div>
                     <div className="RepoSec">
-                      <a href="https://github.com/tyron63/1234.git">Github repo</a>
+                      <a
+                        href="https://github.com/tyron63/1234.git"
+                        target="_black"
+                        rel="noopener noreferrer"
+                      >
+                        Github repo
+                      </a>
                     </div>
                   </div>
                 </a>
