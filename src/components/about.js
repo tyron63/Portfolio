@@ -56,12 +56,12 @@ class About extends Component {
         {
           id: "first-p-about",
           content:
-            "I'm an aspiring 19 year old Full Stack developer born and raised in Cape Town. I am logical, creative, love problem solving and learning new skills. I look forward to working in an environment where I can work with and learn from others around me. During my learning process I've come to enjoy self learning and still spend my own time coding on CodeCademy and YouTube videos.",
+            "I'm an aspiring 20 year old Full Stack developer born and raised in Cape Town. I am logical, creative, love problem solving and learning new skills. I look forward to working in an environment where I can work with and learn from others around me. During my learning process I've come to enjoy self learning and still spend my own time coding on CodeCademy and YouTube videos.",
         },
         {
           id: "second-p-about",
           content:
-            "If I'm not busy coding I enjoy doing outside activities like all kinds of sports, I love playing chess, 30 Seconds and any game that basically tests your brain.",
+            "If I'm not busy coding I enjoy doing outside activities like all kinds of sports, I love playing chess, 30 Seconds and any game that basically tests your brain .",
         },
       ],
     };

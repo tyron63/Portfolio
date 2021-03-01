@@ -16,6 +16,7 @@ class Intro extends Component {
                 <strong className="text-slider">
                   <Typed
                     strings={[
+                      "Junior Web Developer",
                       "Aspiring Junior Full Stack Developer.",
                       "Scroll down and get to know me.",
                     ]}
