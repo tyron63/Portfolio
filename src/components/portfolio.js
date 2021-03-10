@@ -8,6 +8,7 @@ import Three from "../img/image3.png";
 import Four from "../img/VanKesteren.JPG";
 import Five from "../img/image5.png";
 import Six from "../img/image6.png";
+import Seven from "../img/image7.png";
 
 class Portfolio extends Component {
   render() {
@@ -223,6 +224,36 @@ class Portfolio extends Component {
                 </a>
               </div>
             </div>
+            <div className="col-md-4"></div>
+
+            <div className="col-md-4">
+              <div className="work-box">
+                <a
+                  href="https://devzone.lifechoicesacademy.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="work-img">
+                    <img src={Seven} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">HCI Foundation</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            <br />
+                            Live WordPress Website. HCI Foundation
+                            Website
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-md-4"></div>
           </div>
         </div>
       </section>

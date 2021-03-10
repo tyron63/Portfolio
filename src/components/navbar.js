@@ -1,52 +1,52 @@
-import React, { Component } from 'react';
-import $ from 'jquery';
-import './css/navbar.css'
+import React, { Component } from "react";
+import $ from "jquery";
+import "./css/navbar.css";
 
 class Navbar extends Component {
   componentDidMount() {
-    const nav = $('nav');
+    const nav = $("nav");
     let navHeight = nav.outerHeight();
 
-    $('body').scrollspy({
-      target: '#mainNav',
+    $("body").scrollspy({
+      target: "#mainNav",
       offset: navHeight,
     });
 
-    window.addEventListener('scroll', () => {
+    window.addEventListener("scroll", () => {
       if (window.pageYOffset > 50) {
         document
-          .querySelector('.navbar-expand-md')
-          .classList.add('navbar-reduce');
+          .querySelector(".navbar-expand-md")
+          .classList.add("navbar-reduce");
         document
-          .querySelector('.navbar-expand-md')
-          .classList.remove('navbar-trans');
+          .querySelector(".navbar-expand-md")
+          .classList.remove("navbar-trans");
       } else {
         document
-          .querySelector('.navbar-expand-md')
-          .classList.add('navbar-trans');
+          .querySelector(".navbar-expand-md")
+          .classList.add("navbar-trans");
         document
-          .querySelector('.navbar-expand-md')
-          .classList.remove('navbar-reduce');
+          .querySelector(".navbar-expand-md")
+          .classList.remove("navbar-reduce");
       }
     });
 
-    $('a.js-scroll[href*="#"]:not([href="#"])').on('click', function () {
+    $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function () {
       if (
-        window.location.pathname.replace(/^\//, '') ===
-          this.pathname.replace(/^\//, '') &&
+        window.location.pathname.replace(/^\//, "") ===
+          this.pathname.replace(/^\//, "") &&
         window.location.hostname === this.hostname
       ) {
         var target = $(this.hash);
         target = target.length
           ? target
-          : $('[name=' + this.hash.slice(1) + ']');
+          : $("[name=" + this.hash.slice(1) + "]");
         if (target.length) {
-          $('html, body').animate(
+          $("html, body").animate(
             {
               scrollTop: target.offset().top - navHeight + 5,
             },
             1000,
-            'easeInExpo'
+            "easeInExpo"
           );
           return false;
         }
@@ -58,7 +58,8 @@ class Navbar extends Component {
     return (
       <nav
         className="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
-        id="mainNav" style={{display: 'inline-block'}}
+        id="mainNav"
+        style={{ display: "inline-block" }}
       >
         <div className="container">
           <button
@@ -77,7 +78,7 @@ class Navbar extends Component {
           </button>
           <div
             className="navbar-collapse collapse justify-content-end"
-            id="navbarDefault" 
+            id="navbarDefault"
           >
             <ul className="navbar-nav">
               <li className="nav-item">
