@@ -228,7 +228,7 @@ class Portfolio extends Component {
             <div className="col-md-4">
               <div className="work-box">
                 <a
-                  href="https://devzone.lifechoicesacademy.com"
+                  href="https://dev.lifechoicesacademy.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
