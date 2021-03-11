@@ -224,7 +224,6 @@ class Portfolio extends Component {
                 </a>
               </div>
             </div>
-            <div className="col-md-4"></div>
 
             <div className="col-md-4">
               <div className="work-box">
@@ -243,8 +242,7 @@ class Portfolio extends Component {
                         <div className="w-more">
                           <span className="w-ctegory">
                             <br />
-                            Live WordPress Website. HCI Foundation
-                            Website
+                            Live WordPress Website. HCI Foundation Website
                           </span>
                         </div>
                       </div>
@@ -253,7 +251,6 @@ class Portfolio extends Component {
                 </a>
               </div>
             </div>
-            <div className="col-md-4"></div>
           </div>
         </div>
       </section>
