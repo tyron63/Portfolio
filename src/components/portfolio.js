@@ -200,7 +200,7 @@ class Portfolio extends Component {
             <div className="col-md-4">
               <div className="work-box">
                 <a
-                  href="https://devzone.lifechoicesacademy.com"
+                  href="http://www.vankesteren-foundation.org/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -225,7 +225,7 @@ class Portfolio extends Component {
               </div>
             </div>
 
-            <div className="col-md-4">
+            {/* <div className="col-md-4">
               <div className="work-box">
                 <a
                   href="https://dev.lifechoicesacademy.com/"
@@ -250,7 +250,7 @@ class Portfolio extends Component {
                   </div>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
