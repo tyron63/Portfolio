@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import "./css/portfolio.css";
 
 //import Images
-import One from "../img/image1.png";
 import Two from "../img/image2.png";
 import Three from "../img/image3.png";
 import Four from "../img/VanKesteren.JPG";
 import Five from "../img/image5.png";
 import Six from "../img/image6.png";
-import Seven from "../img/image7.png";
+import Seven from "../img/image7.PNG";
+import eight from "../img/image8.PNG";
 
 class Portfolio extends Component {
   render() {
@@ -94,7 +94,7 @@ class Portfolio extends Component {
                 </a>
               </div>
             </div>
-            <div className="col-md-4">
+            {/*<div className="col-md-4">
               <div className="work-box">
                 <a
                   href="https://modest-hypatia-c1c905.netlify.app"
@@ -127,7 +127,7 @@ class Portfolio extends Component {
                   </div>
                 </a>
               </div>
-            </div>
+            </div>*/}
             <div className="col-md-4">
               <div className="work-box">
                 <a
@@ -225,10 +225,10 @@ class Portfolio extends Component {
               </div>
             </div>
 
-            {/* <div className="col-md-4">
+            <div className="col-md-4">
               <div className="work-box">
                 <a
-                  href="https://dev.lifechoicesacademy.com/"
+                  href="https://qasa.co.za/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -238,11 +238,12 @@ class Portfolio extends Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">HCI Foundation</h2>
+                        <h2 className="w-title">QASA</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
                             <br />
-                            Live WordPress Website. HCI Foundation Website
+                            Live WordPress Website. 
+QuadPara Association of South Africa Website
                           </span>
                         </div>
                       </div>
@@ -250,7 +251,40 @@ class Portfolio extends Component {
                   </div>
                 </a>
               </div>
-            </div> */}
+            </div> 
+
+            <div className="col-md-4">
+              
+            </div> 
+
+            <div className="col-md-4">
+              <div className="work-box">
+                <a
+                  href="https://fibreglassprojects.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="work-img">
+                    <img src={eight} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">Fibreglass Projects</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            <br />
+                            Live WordPress Website. 
+Fibreglass Projects Website.
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div> 
+
           </div>
         </div>
       </section>
