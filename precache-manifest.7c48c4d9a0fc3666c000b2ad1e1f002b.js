@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "89d446f6302dc5888a1569e37e70de74",
+    "revision": "dc2508bc2d60f7b79b48c5979cc9bb03",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "a2db222515d720ec7ca5",
+    "revision": "6b5b7281ba8b65162310",
     "url": "/Portfolio/static/css/2.d42dd038.chunk.css"
   },
   {
-    "revision": "b37edce7dbfdf40c1eca",
+    "revision": "8f2ea72836427ed1a5c1",
     "url": "/Portfolio/static/css/main.8946ab6b.chunk.css"
   },
   {
-    "revision": "a2db222515d720ec7ca5",
-    "url": "/Portfolio/static/js/2.eaba86dc.chunk.js"
+    "revision": "6b5b7281ba8b65162310",
+    "url": "/Portfolio/static/js/2.6b4b86e8.chunk.js"
   },
   {
     "revision": "4e9fc953b56f50b94807904cfdad3110",
-    "url": "/Portfolio/static/js/2.eaba86dc.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.6b4b86e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b37edce7dbfdf40c1eca",
-    "url": "/Portfolio/static/js/main.7c8245ce.chunk.js"
+    "revision": "8f2ea72836427ed1a5c1",
+    "url": "/Portfolio/static/js/main.d1c72e59.chunk.js"
   },
   {
     "revision": "b83a37198ba343383876",
@@ -64,10 +64,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/front.1338abfd.jpg"
   },
   {
-    "revision": "96daaf6a14dc8ddd3c2517746c8790b1",
-    "url": "/Portfolio/static/media/image1.96daaf6a.png"
-  },
-  {
     "revision": "431f0248e2d37ab0251e558828811d5f",
     "url": "/Portfolio/static/media/image2.431f0248.png"
   },
@@ -84,8 +80,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/image6.78654c2a.png"
   },
   {
-    "revision": "99f340002081cc831af5cfb9e8030a51",
-    "url": "/Portfolio/static/media/image7.99f34000.png"
+    "revision": "2b4d8375dea2f43fe85249f4a8ff936b",
+    "url": "/Portfolio/static/media/image7.2b4d8375.PNG"
+  },
+  {
+    "revision": "030d09b0dca66c4fc0bf1a2b252c8492",
+    "url": "/Portfolio/static/media/image8.030d09b0.PNG"
   },
   {
     "revision": "05acfdb568b3df49ad31355b19495d4a",
