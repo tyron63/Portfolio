@@ -48,8 +48,8 @@ class About extends Component {
         {
           id: "WordPress",
           content: "WordPress",
-          persentasie: "52%",
-          value: "52",
+          persentasie: "62%",
+          value: "62",
         },
       ],
       about_me: [
@@ -205,18 +205,28 @@ class About extends Component {
                           <br />
                           <div>
                             <p>
-                              <u>Devtron(2019-2020)</u>
+                              <u>Devtron</u>
                               <br />
-                              -- Assist the boss with the setup and also the
+                              (2019-2020) <br />
+                              -{">"} Assist the boss with the setup and also the
                               programming behind the electrical fence.
                             </p>
                           </div>
                           <div>
                             <p>
-                              <u>LC Studio(currently)</u>
+                              <u>LC Studio</u>
                               <br />
-                              -- Front End Web developer. Doing WordPress
-                              Development.
+                               September 2020 till 10 May 2021<br />
+                               -{">"} Front End Web developer. Doing WordPress
+                               Development.
+                            </p>
+                          </div>
+                          <div>
+                            <p>
+                              <u>Savvy Marketing</u>
+                              <br />
+                              10 May 2020 - Currently<br />
+                              -{">"} Front End Web Developer | SEO.
                             </p>
                           </div>
                         </div>
